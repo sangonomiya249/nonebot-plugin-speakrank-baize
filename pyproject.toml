@@ -27,4 +27,6 @@ Repository = "https://github.com/sangonomiya249/nonebot_plugin_speakrank_baize"
 nonebot_plugin_speakrank_baize = "nonebot_plugin_speakrank_baize:__plugin_meta__"
 
 [tool.setuptools.packages.find]
-include = ["nonebot_plugin_speakrank_baize*"]
+where = ["."]
+include = ["nonebot_plugin_speakrank_baize"]
+exclude = ["screenshots", "screenshots/*"]
